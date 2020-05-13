@@ -11,6 +11,7 @@
     "@eva-design/eva": "^2.0.0-alpha.1",
     "@ui-kitten/components": "^5.0.0-alpha.1",
     "@ui-kitten/eva-icons": "^4.4.1",
+    "@use-expo/font": "^2.0.0",
     "expo": "~37.0.3",
     "expo-font": "~8.1.0",
     "react": "~16.9.0",

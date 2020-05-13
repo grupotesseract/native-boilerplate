@@ -1,4 +1,8 @@
 const mapping = {
+  strict: {
+    "text-font-family": "System",
+    "text-heading-1-font-family": "jaapokki",
+  },
   components: {
     Button: {
       meta: {},

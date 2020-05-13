@@ -11,12 +11,12 @@ export const DemoText = () => (
              <View style={styles.row}>
                <Text> Texto padrão </Text>
              </View>
-             <View style={styles.row}>
+             <View>
                <Text style={styles.text} category="h1">
-                 H1
+                 H1 fonte definida pelo mapping
                </Text>
-               <Text style={styles.text} category="h2">
-                 H2
+               <Text style={[styles.text, { fontFamily: 'jaapokki' }]} category="h2">
+                 H2 fonte definida pelo style
                </Text>
                <Text style={styles.text} category="h3">
                  H3
